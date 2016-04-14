@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.thescientistsapp.fragmentfive">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18FFFF" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gets"
+        android:layout_centerInParent="true"
+        android:id="@+id/h"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="START..."
+        android:textStyle="italic"
+        android:background="#ECEFF1"
+        android:textSize="44sp"
+        android:textAlignment="center"
+        android:onClick="scientistchoose"/>
+
+
+
+
+</RelativeLayout>

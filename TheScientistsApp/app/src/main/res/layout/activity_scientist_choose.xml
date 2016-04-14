@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+
+    tools:context="com.example.android.thescientistsapp.scientist_choose"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="300dp"
+        card_view:cardCornerRadius="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/einstein1"
+                android:layout_marginBottom="99dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="ALBERT EINSTEIN"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="55dp"
+            android:textStyle="bold"
+            android:textSize="34sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textSize="34sp"
+                android:text="Go ahead"
+                android:onClick="einstein"
+                android:gravity="center"
+                android:background="#ECEFF1"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="300dp"
+        card_view:cardCornerRadius="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/newton"
+                android:layout_marginBottom="99dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ISSAC NEWTON"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="55dp"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textSize="34sp"
+                android:text="Go ahead"
+                android:onClick="newton"
+                android:gravity="center"
+                android:background="#ECEFF1"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="684dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="300dp"
+        card_view:cardCornerRadius="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/schrodinger"
+                android:layout_marginBottom="99dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SCHRODINGER"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="55dp"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textSize="34sp"
+                android:text="Go ahead"
+                android:gravity="center"
+                android:onClick="schrodinger"
+                android:background="#ECEFF1"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1018dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="300dp"
+        card_view:cardCornerRadius="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/maxwell"
+                android:layout_marginBottom="99dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAXWELL"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="55dp"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textSize="34sp"
+                android:text="Go ahead"
+                android:onClick="maxwell"
+                android:gravity="center"
+                android:background="#ECEFF1"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1352dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="300dp"
+        card_view:cardCornerRadius="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ramanujan"
+                android:layout_marginBottom="99dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAMANUJAN"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="55dp"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textSize="34sp"
+                android:text="Go ahead"
+                android:onClick="ramanujan"
+                android:gravity="center"
+                android:background="#ECEFF1"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>

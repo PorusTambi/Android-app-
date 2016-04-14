@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/background"
+    android:scaleType="centerCrop"/>
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/estart"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/his1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/history_e"
+            android:id="@+id/his2"
+            android:layout_marginLeft="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/his1"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+
+ </ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interesting_facts_e"
+            android:id="@+id/h3"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ecertificate"
+            android:layout_below="@id/h3" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stories_of_einstein"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Theories_e"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/istart"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/hist1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/history_i"
+            android:id="@+id/hist2"
+            android:layout_marginLeft="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hist1"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interesting_facts_i"
+            android:id="@+id/l3"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stories_of_newton"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/theories_i"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sstart"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/hist01"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/history_s"
+            android:id="@+id/hist02"
+            android:layout_marginLeft="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hist01"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interesting_facts_s"
+            android:id="@+id/p3"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stories_of_schrodinger"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:id="@+id/j"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/j"
+           android:src="@drawable/cat1"/>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a12">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theories_s"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>
+    </ScrollView>
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a13">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mstart"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/histr1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/history_m"
+            android:id="@+id/histr2"
+            android:layout_marginLeft="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/histr1"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a14">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interesting_facts_m"
+            android:id="@+id/d3"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a15">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stories_of_maxwell"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a16">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/theories_m"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a17">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rstart"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/hista1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/history_r"
+            android:id="@+id/hista2"
+            android:layout_marginLeft="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hista1"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a18">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interesting_facts_r"
+            android:id="@+id/o3"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a19">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stories_of_ramanujan"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/a20">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/theories_r"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

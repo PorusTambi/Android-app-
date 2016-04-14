@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.thescientistsapp.fragmentfour">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/get_high"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fourth"
+        android:textSize="25sp"
+        android:layout_marginBottom="80dp"
+        android:text="Get High in knowledge"
+        android:textStyle="bold"
+        android:textColor="#FAFAFA"
+        android:layout_alignParentBottom="true"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rl3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="120sp"
+            android:id="@+id/dot4"
+            android:textColor="#FAFAFA"
+            android:text="." />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_toRightOf="@id/dot4"
+            android:textSize="80sp"
+            android:textColor="#FAFAFA"
+            android:layout_marginTop="41dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_toLeftOf="@id/rl3"
+        android:textSize="80sp"
+        android:textColor="#FAFAFA"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"/>
+
+
+</RelativeLayout>

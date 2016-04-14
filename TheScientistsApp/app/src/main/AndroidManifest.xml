@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.thescientistsapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fragmentone" />
+        <activity android:name=".fragmenttwo" />
+        <activity android:name=".fragmentthree" />
+        <activity android:name=".fragmentfour" />
+        <activity android:name=".fragmentfive" />
+        <activity android:name=".Pager_Adapter" />
+        <activity android:name=".scientist_choose" />
+        <activity android:name=".einstein_activity" />
+        <activity android:name=".newton_activity" />
+        <activity android:name=".maxwell_activity" />
+        <activity android:name=".schrodinger_activity" />
+        <activity android:name=".ramanujan_activity" />
+        <activity android:name=".common"></activity>
+    </application>
+
+</manifest>
